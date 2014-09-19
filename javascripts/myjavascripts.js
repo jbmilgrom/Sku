@@ -12,11 +12,21 @@ $(function(){
          {"id" : "3", "hexColor" : "#da3b11", "name" : "carbon filter"}
     ]
 
+
     var $dropDown = $('#dropdown');
     var $inputWrapper = $("#inputWrapper");
 
+    $dropDown.children().each(function(index){
+    	changeAttribute($(this).find(".color"), "background-color", data[index]["hexColor"]);
+		$(this).find(".name").text(data[index].name);   	
+    })
+
+	$dropDown.find("input").on("click", function(e){
+
+	})
+
     $inputWrapper.on("click", function(e){
-    	changeAttribute($dropDown, "display", "block")
+    	changeAttribute($dropDown, "display", "block");
     })
 
 })

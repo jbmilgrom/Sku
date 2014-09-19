@@ -33,5 +33,26 @@ ul#inputWrapper {
 }
 
 ul#dropdown {
+	width: 310px;
+	background-color: black;
+	height: 150px;
+	border: 2px solid blue;
+
+	ul.quality {
+		width: 310px;
+		height: 48px;
+		border: 1px solid white;
+	}
+
+	li {
+		float: left;
+		width: 75px;
+		height: 45px;
+		background-color: white;
+	}
+
+	li input {
+		margin-top: 15px;
+	}
 
 }

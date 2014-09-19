@@ -82,3 +82,20 @@ ul#inputWrapper {
     width: 20px;
     height: 50px;
     background-color: red; }
+
+ul#dropdown {
+  width: 310px;
+  background-color: black;
+  height: 150px;
+  border: 2px solid blue; }
+  ul#dropdown ul.quality {
+    width: 310px;
+    height: 48px;
+    border: 1px solid white; }
+  ul#dropdown li {
+    float: left;
+    width: 75px;
+    height: 45px;
+    background-color: white; }
+  ul#dropdown li input {
+    margin-top: 15px; }
